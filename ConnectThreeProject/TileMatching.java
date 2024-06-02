@@ -7,7 +7,7 @@ public class TileMatching extends JFrame{
     public static void main(String[] args) {
 
         //1. Ask the user to input the number of rows, columns, and types using JOptionPane.
-        JOptionPane.showMessageDialog(null, "To win: create a set of three tiles horizontally or diagonally!");
+        JOptionPane.showMessageDialog(null, "To win: create a set of three tiles horizontally or vertically!");
         String stringRows = JOptionPane.showInputDialog(null, "Enter the number of rows: ");
         int rows = Integer.parseInt(stringRows);
         String stringColumns = JOptionPane.showInputDialog(null, "Enter the number of columns: ");
